@@ -1,43 +1,43 @@
 const farmerData = {
     id: 1,
-    name: 'John Doe',
-    location: '123 Main St, Anytown, USA',
-    bio: 'I have been farming for 10 years and specialize in growing organic vegetables. My farm uses sustainable practices to ensure that our produce is healthy and delicious.',
+    name: 'Rajesh Kumar',
+    location: 'Vill. Bhainsa, Dist. Meerut, Uttar Pradesh, India',
+    bio: 'I have been farming for 15 years and specialize in growing organic crops. My farm uses sustainable practices to ensure that our produce is healthy and nutritious.',
     crops: [
         {
             id: 1,
-            name: 'Carrots',
-            quantity: 500,
-            price: 1.50,
-            image: 'https://example.com/carrots.jpg'
+            name: 'Wheat',
+            quantity: 1000,
+            price: 20.00,  // price in INR per kg
+            image: 'https://example.com/wheat.jpg'
         },
         {
             id: 2,
-            name: 'Lettuce',
-            quantity: 200,
-            price: 2.00,
-            image: 'https://example.com/lettuce.jpg'
+            name: 'Rice',
+            quantity: 800,
+            price: 30.00,  // price in INR per kg
+            image: 'https://example.com/rice.jpg'
         },
         {
             id: 3,
-            name: 'Tomatoes',
-            quantity: 300,
-            price: 3.50,
-            image: 'https://example.com/tomatoes.jpg'
+            name: 'Mangoes',
+            quantity: 500,
+            price: 50.00,  // price in INR per kg
+            image: 'https://example.com/mangoes.jpg'
         }
     ],
     reviews: [
         {
             id: 1,
-            reviewerName: 'Jane Smith',
-            rating: 4,
-            comment: "John's produce is always fresh and delicious!"
-    },
+            reviewerName: 'Anita Verma',
+            rating: 5,
+            comment: "Rajesh's produce is always fresh and of great quality. I highly recommend his farm!"
+        },
         {
             id: 2,
-            reviewerName: 'Bob Johnson',
-            rating: 5,
-            comment: 'I love buying from John. His farm uses sustainable practices and his produce is always top quality!'
+            reviewerName: 'Manoj Singh',
+            rating: 4,
+            comment: 'The organic practices of Rajesh Kumar make his produce trustworthy and healthy. Great quality!'
         }
     ]
 }
